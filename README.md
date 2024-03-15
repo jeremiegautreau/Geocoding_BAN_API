@@ -2,7 +2,7 @@
 
 The aims of the project was to try the pyQGIS library, create a geocoding algorithm using BAN(Base d'Adresse Nationale) API and render it accesible from the model designer.  
 The model designer in QGIS allow to easily create GIS data processing automation.  
-I used the [BAN API documentation](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#qu-est-ce-que-le-geocodage.) and the great work of CREAGIS with the [QBANO project](https://github.com/CREASIG/QBANO) to create the algorithm.
+I used the [BAN API documentation](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#qu-est-ce-que-le-geocodage.) and the great work of CREAGIS with the [QBANO project](https://github.com/CREASIG/QBANO) to create the algorithm.  
 The pyQGIS library is very specific and I was able to overcome issues in reviewing different QGIS projects on Github.
 
 The algorithm use the CSV endpoint of BAN API and make a point layer with the coordinates for each adress.  
